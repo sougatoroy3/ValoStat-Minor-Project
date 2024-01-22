@@ -1,0 +1,85 @@
+apply from: "$rootDir/versions.gradle"
+
+ext.deps = [
+        'kotlin' : [
+                'coroutines' : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+        ],
+
+        'androidx'      : [
+                'core' : "androidx.core:core-ktx:$versions.androidx",
+                'appCompat' : "androidx.appcompat:appcompat:$versions.appCompat",
+
+                'lifecycle' : [
+                        'viewmodel' : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
+                        'runtime' : "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifecycle",
+                        'compose' : "androidx.lifecycle:lifecycle-runtime-compose:$versions.lifecycle"
+                ],
+
+                'compose' : [
+                        'bom' : "androidx.compose:compose-bom:$versions.composeBom",
+                        'ui' : "androidx.compose.ui:ui-tooling",
+                        'uiGraphics' : "androidx.compose.ui:ui-graphics",
+                        'uiToolingPreview' : "androidx.compose.ui:ui-tooling-preview",
+                        'material' : "androidx.compose.material:material",
+
+                        'uiTestManifest' : "androidx.compose.ui:ui-test-manifest",
+                        'uiTooling' : "androidx.compose.ui:ui-tooling",
+                        'junit' : "androidx.compose.ui:ui-test-junit4",
+
+                        'activity' : "androidx.activity:activity-compose:$versions.composeActivity",
+
+                        'coil' : "io.coil-kt:coil-compose:$versions.coil",
+                ],
+
+                'datastore' : "androidx.datastore:datastore-preferences:$versions.datastore",
+
+                'exoPlayer' : [
+                        'core' : "androidx.media3:media3-exoplayer:$versions.exoPlayer",
+                        'dash' : "androidx.media3:media3-exoplayer-dash:$versions.exoPlayer",
+                        'hls' : "androidx.media3:media3-exoplayer-hls:$versions.exoPlayer",
+                        'ui' : "androidx.media3:media3-ui:$versions.exoPlayer",
+                ],
+        ],
+
+        'accompanist' : "com.google.accompanist:accompanist-systemuicontroller:$versions.accompanist",
+
+        'gson' : "com.google.code.gson:gson:$versions.gson",
+
+        'retrofit' : [
+                'retrofit' : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+                'gson' : "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+        ],
+
+        'okhttp' : [
+                'bom' : "com.squareup.okhttp3:okhttp-bom:$versions.okhttpBom",
+                'okhttp' : "com.squareup.okhttp3:okhttp",
+                'logging' : "com.squareup.okhttp3:logging-interceptor",
+        ],
+
+        'tests' : [
+                'junit' : "junit:junit:$versions.junit",
+                'junitExt' : "androidx.test.ext:junit:$versions.junitExt",
+                'espresso' : "androidx.test.espresso:espresso-core:$versions.espresso"
+        ],
+
+        'firebase' : [
+                'bom' : "com.google.firebase:firebase-bom:$versions.firebaseBom",
+                'analytics' : "com.google.firebase:firebase-analytics",
+                'crashlytics' : "com.google.firebase:firebase-crashlytics",
+        ],
+
+        'youtube' : [
+                'player' : "com.pierfrancescosoffritti.androidyoutubeplayer:core:$versions.youtube_player"
+        ],
+
+        'navigation' : "androidx.navigation:navigation-compose:$versions.navigation",
+
+        'koin' : [
+                'koin' : "io.insert-koin:koin-android:$versions.koin",
+                'compose' : "io.insert-koin:koin-androidx-compose:$versions.koinCompose",
+                'annotations' : "io.insert-koin:koin-annotations:$versions.koinKsp",
+                'compiler' : "io.insert-koin:koin-ksp-compiler:$versions.koinKsp",
+        ],
+
+        'processPhoenix' : "com.jakewharton:process-phoenix:$versions.processPhoenix"
+]
