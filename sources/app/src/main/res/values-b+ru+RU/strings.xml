@@ -1,0 +1,46 @@
+<resources>
+    <!-- non-translatable-->
+    <string name="app_name" translatable="false">ValoStat</string>
+    <string name="agent_details" translatable="false">Agent details</string>
+    <string name="weapon_details" translatable="false">Weapon details</string>
+
+    <string name="news">Новости</string>
+    <string name="agents">Агенты</string>
+    <string name="weapons">Арсенал</string>
+    <string name="maps">Карты</string>
+    <string name="videos">Видео</string>
+
+    <string name="connection_error_title">Нет интернета</string>
+    <string name="general_error_title">Что-то пошло не так</string>
+
+    <string name="role">Роль</string>
+    <string name="origin">Происхождение</string>
+    <string name="description">Биография</string>
+    <string name="points_for_ulti">Сфер для ульты</string>
+    <string name="abilities">Особые умения</string>
+    <string name="type">Тип</string>
+    <string name="damage">Урон</string>
+    <string name="skins">Скины</string>
+    <string name="creds">Стоимость</string>
+    <string name="fire_rate">Скорострельность</string>
+    <string name="fire_mode">Огонь</string>
+    <string name="wall_penetration">Пробивная способность</string>
+    <string name="magazine">Обойма</string>
+    <string name="alt_fire_mode">Альт. Огонь</string>
+    <string name="range">Дистанция</string>
+    <string name="head">Голова</string>
+    <string name="body">Тело</string>
+    <string name="legs">Ноги</string>
+    <string name="voiceline">Озвучка</string>
+    <string name="settings">Настройки</string>
+
+    <!--Language support-->
+    <string name="current_language">Русский</string>
+    <string name="en" translatable="false">English</string>
+    <string name="ru" translatable="false">Русский</string>
+    <string name="kr" translatable="false">한국어</string>
+    <string name="contact_me">Полезные ссылки</string>
+    <string name="useful_links">Свяжитесь со мной</string>
+    <string name="see_article">Подробнее</string>
+
+</resources>
