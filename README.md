@@ -1,6 +1,6 @@
 # ValoStat
 
-Not only the guide for beginners but also a nice Valorant Statistics in your pocket.
+Not only a guide for beginners but also a nice Valorant Statistics in your pocket.
 Official API: https://valorant-api.com/
 
 ## Table of Contents
@@ -14,7 +14,7 @@ Official API: https://valorant-api.com/
 
 Link to Google Play: [to be added soon...]
 
-Or build & compile the code directly with gradle 8.0+ & Android Studio.
+Or build & compile the code directly with Gradle 8.0+ & Android Studio.
 
 ## TechStack
 
@@ -46,17 +46,17 @@ You can navigate through each agent's description & hear the voice.
 
 https://github.com/sergey-lvovich-kim/ValoStat/assets/91290086/e0c9e5ea-1ae3-4f5c-99f2-10bd8c610a3b
 
-Overall, Valorant's weapons are designed to balance skill, strategy, and decision-making. Mastering the various weapons, understanding their strengths and weaknesses, and making smart choices based on the economy system are essential for success in Valorant's competitive gameplay.
+Overall, Valorant's weapons are designed to balance skill, strategy, and decision-making. Mastering the various weapons, understanding their strengths and weaknesses, and making smart choices based on the economic system are essential for success in Valorant's competitive gameplay.
 
-You can checkout weapons skins & observe skin chromas (as in the game). Watch the videos of how the skins look like in the game.
+You can check out weapons skins & observe skin chromas (as in the game). Watch the videos of how the skins look like in the game.
 
 ### Locale Support
 
 https://github.com/sergey-lvovich-kim/ValoStat/assets/91290086/7a5c37a8-4c49-4468-8591-0942c64a7d57
 
-The language localization feature allows users to change the language of the app interface to their preferred language. Currently, only 3 languages supported [English, Korean, Russian]. Changing app language leads to translating all the content of the app even including Agents' voices.
+The language localization feature allows users to change the language of the app interface to their preferred language. Currently, only 3 languages are supported [English, Korean, Russian]. Changing app language leads to translating all the content of the app even including Agents' voices.
 
-Also, App language can be changed in App's settings outside of the App.
+Also, the App language can be changed in the App's settings outside of the App.
 
 ## License
 
